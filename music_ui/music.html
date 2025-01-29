@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Neumorphic Music Player</title>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <div class="album-art">
+                <img src="https://via.placeholder.com/150" alt="Album Art">
+            </div>
+            <h2 class="track-title">Track Title</h2>
+            <h3 class="artist-name">Artist Name</h3>
+            <div class="controls">
+                <button class="control-btn" id="prev">⏮</button>
+                <button class="control-btn" id="play">▶</button>
+                <button class="control-btn" id="next">⏭</button>
+            </div>
+            <div class="progress-container">
+                <input type="range" id="progress" value="0" min="0" max="100">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music-player {
+    background: #e0e0e0;
+    border-radius: 20px;
+    box-shadow: 20px 20px 60px #c1c1c1, 
+                -20px -20px 60px #ffffff;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.album-art img {
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px #c1c1c1, 
+                -10px -10px 30px #ffffff;
+}
+
+.track-title {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.artist-name {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+.control-btn {
+    background: #e0e0e0;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 10px 10px 30px #c1c1c1, 
+                -10px -10px 30px #ffffff;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background 0.3s;
+}
+
+.control-btn:hover {
+    background: #d0d0d0;
+}
+
+.progress-container {
+    margin-top: 20px;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    background: #d0d0d0;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #e0e0e0;
+    border-radius: 50%;
+    box-shadow: 10px 10px 30px #c1c1c1, 
+                -10px -10px 30px #ffffff;
+    cursor: pointer;
+}

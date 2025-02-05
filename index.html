@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neomorphic Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Now Playing Card -->
+        <div class="player-card">
+            <div class="header">
+                <button class="neo-button"><i class="fas fa-arrow-left"></i></button>
+                <span>PLAYING NOW</span>
+                <button class="neo-button"><i class="fas fa-bars"></i></button>
+            </div>
+            
+            <div class="album-cover">
+                <img src="album-cover.jpg" alt="Album Cover">
+            </div>
+
+            <div class="song-info">
+                <h2>Low Life</h2>
+                <p>Future ft. The Weekend</p>
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress"></div>
+                <div class="time">
+                    <span class="current-time">0:00</span>
+                    <span class="total-time">3:45</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="neo-button"><i class="fas fa-backward"></i></button>
+                <button class="neo-button play-btn"><i class="fas fa-play"></i></button>
+                <button class="neo-button"><i class="fas fa-forward"></i></button>
+            </div>
+        </div>
+
+        <!-- Playlist Card -->
+        <div class="playlist-card">
+            <div class="header">
+                <h2>EVOL - FUTURE</h2>
+            </div>
+            
+            <div class="playlist">
+                <div class="song-item">
+                    <div class="song-info">
+                        <h3>Ain't No Time</h3>
+                        <p>Future</p>
+                    </div>
+                    <button class="neo-button small"><i class="fas fa-play"></i></button>
+                </div>
+                <!-- More song items -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
